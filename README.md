@@ -1,4 +1,14 @@
 # [APTECH]: NHOM 3 - HUMAN RESOURCES MANAGEMENT
+---
+
+### Branch name table
+
+|          Branch          |        Description         |
+|:------------------------:|:--------------------------:| 
+|    dev/UI/branch_name    |    use to create app UI    |
+| dev/features/branch_name | use to create app features |
+|    fixbug/branch_name    |  use to fixbug (if have)   |
+|         updating         |          updating          |
 
 ### Before start to code remember to pull new code from main
 
@@ -35,7 +45,7 @@ git add .
 `````
 
 `````bash
-git commit -m <your_commit_message>
+git commit -m "<branch_name>: <your_commit_message>"
 `````
 
 `````bash
