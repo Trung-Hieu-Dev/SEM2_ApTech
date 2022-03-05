@@ -1,5 +1,13 @@
 # [APTECH]: NHOM 3 - HUMAN RESOURCES MANAGEMENT
 
+### Extension use in app:
+
+- mysql-connector-java
+
+`````bash
+https://dev.mysql.com/downloads/connector/j/?os=26
+`````
+
 ### Branch name table
 
 |          Branch          |        Description         |
