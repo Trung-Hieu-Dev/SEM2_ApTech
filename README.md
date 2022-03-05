@@ -1,5 +1,4 @@
 # [APTECH]: NHOM 3 - HUMAN RESOURCES MANAGEMENT
----
 
 ### Branch name table
 
@@ -9,6 +8,12 @@
 | dev/features/branch_name | use to create app features |
 |    fixbug/branch_name    |  use to fixbug (if have)   |
 |         updating         |          updating          |
+
+- Show all branch name in project
+
+`````bash
+git branch -a
+`````
 
 ### Before start to code remember to pull new code from main
 
