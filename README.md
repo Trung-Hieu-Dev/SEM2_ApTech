@@ -17,6 +17,12 @@ https://dev.mysql.com/downloads/connector/j/?os=26
 |    fixbug/branch_name    |  use to fixbug (if have)   |
 |         updating         |          updating          |
 
+- Show all branch name in project
+
+`````bash
+git branch -a
+`````
+
 ### Before start to code remember to pull new code from main
 
 - To pull code on <b>main</b> branch
