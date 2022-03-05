@@ -1,7 +1,11 @@
 package screens.login;
 
+import screens.mainMenu.MainMenu;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class LoginScreen extends JFrame {
   private JPanel loginScreen;
@@ -13,16 +17,22 @@ public class LoginScreen extends JFrame {
   private JButton loginButton;
 
   public LoginScreen() {
+    setTitle("Login");
+    getContentPane().add(loginScreen, BorderLayout.CENTER);
+    setSize(790, 410);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+    loginButton.addActionListener(new ActionListener() {
+      @Override
+      public void actionPerformed(ActionEvent e) {
+        dispose();
+        MainMenu mainMenu = new MainMenu();
+        mainMenu.setVisible(true);
+      }
+    });
   }
 
   public static void main(String[] args) {
-    LoginScreen lS = new LoginScreen();
-    lS.setTitle("Login");
-    lS.getContentPane().add(lS.loginScreen, BorderLayout.CENTER);
-    lS.setSize(790, 410);
-    lS.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    lS.setVisible(true);
+    new LoginScreen();
   }
-
 }
