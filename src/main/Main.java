@@ -17,4 +17,3 @@ public class Main {
     jFrame.setVisible(true);
   }
 }
-code
