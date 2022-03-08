@@ -1,7 +1,14 @@
 package main;
 
+import screens.login.LoginScreen;
+import screens.mainMenu.MainMenu;
+
+import javax.swing.*;
+import java.awt.*;
+
 public class Main {
   public static void main(String[] args) {
-    System.out.println("This is Groups 3 Repo");
+    LoginScreen loginScreen = new LoginScreen();
+    loginScreen.setVisible(true);
   }
 }
